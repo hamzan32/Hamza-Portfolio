@@ -1,0 +1,57 @@
+.sidebar{
+    position: fixed;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 40px;
+    z-index: 100;
+    
+    right: 0;
+    top: 0;
+    width: calc(100% - 500px);
+    height: 100%;
+    // right: -100%;
+    .menu{
+        display: font;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        li{
+            list-style: none;
+            a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 2em;
+                margin: 10px 0;
+                font-weight: 300;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.sidebar.active{
+    right: -100%;
+}
+
+.toggle {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: red ;
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 1000;
+}
+.toggle.active{
+    background: #000 ;
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,42 @@
+.about{
+    background: #000;
+    .title{
+        width: 100%;
+        text-align: center;
+        h2{
+            color:#00bcd4;
+            font-size: 1.8em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            border-left: 4px solid #00bcd4;
+            border-right: 4px solid #00bcd4;
+            
+        }
+        p{
+            max-width: 700px;
+            display: inline-block;
+            color: #fff;
+        }
+    }
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    .text-box{
+        min-width: 49%;
+        width: 49%;
+        p{
+            color:#fff;
+            word-spacing: 2px;
+        }
+    }
+    .img-box{
+        margin-left: 40px;
+        img{
+            max-width: 100%;
+        }
+    }
+}

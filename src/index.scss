@@ -1,0 +1,33 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section{
+    padding: 100px;
+    min-height: 100vh;   
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    .text-box {
+        min-width: 49%;
+        width: 49%;
+        p{
+            color:#fff;
+            word-spacing: 2px;
+        }
+    }
+    .img-box {
+        margin-left: 40px;
+        img{
+            max-width: 100%;
+        }
+    }
+}
