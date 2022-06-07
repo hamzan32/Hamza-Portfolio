@@ -8,7 +8,7 @@ function Sidenav() {
     <>
       <div className={`toggle ${isActive ? 'active' : null}`} onClick={toggleMenu}></div>
       <div className={`sidebar ${isActive ? 'active' : null}`}>
-          <ul class="menu">
+          <ul className="menu">
               <li><Link to='/' onClick={toggleMenu}>Home</Link></li>
               <li><Link to='/about' onClick={toggleMenu}>About</Link></li>
               <li><Link to='/service' onClick={toggleMenu}>Services</Link></li>
